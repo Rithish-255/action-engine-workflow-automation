@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "INV-101",
+    "invoice_id": "INV-101",
+    "vendor": "VENDOR_01",
+    "amount": 18000,
+    "severity": "MEDIUM",
+    "violations": [
+      "MISSING_PO",
+      "FINANCE_CHECK_BYPASSED"
+    ],
+    "timestamp": "2026-10-11T00:00:00",
+    "message": "Workflow violation detected for INV-101."
+  },
+  {
+    "case_id": "INV-102",
+    "invoice_id": "INV-102",
+    "vendor": "VENDOR_02",
+    "amount": 9500,
+    "severity": "MEDIUM",
+    "violations": [
+      "FINANCE_CHECK_BYPASSED"
+    ],
+    "timestamp": "2026-10-11T00:00:00",
+    "message": "Workflow violation detected for INV-102."
+  },
+  {
+    "case_id": "INV-104",
+    "invoice_id": "INV-104",
+    "vendor": "VENDOR_04",
+    "amount": 45000,
+    "severity": "HIGH",
+    "violations": [
+      "MISSING_PO",
+      "SKIPPED_SUPPLIER_VALIDATION",
+      "UNAPPROVED_PAYMENT"
+    ],
+    "timestamp": "2026-10-11T00:00:00",
+    "message": "Workflow violation detected for INV-104."
+  }
+]
